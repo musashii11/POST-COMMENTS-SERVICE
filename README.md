@@ -30,7 +30,8 @@ git clone <repository_url>
 cd <repository_name>
 npm install
 
-### Install Dependencies
+## Install Dependencies
+
 -Backend
   cd backend
   node server.js
@@ -41,11 +42,16 @@ npm install
   npm start
 The frontend application will start on 'http://localhost:3000'.
 
-## Using MongoDB Compass
-- Open MongoDB Compass.
-- Connect to your MongoDB instance (usually mongodb://localhost:27017).
-- Ensure the database post-comments is created and collections posts and comments are populated when you create posts and comments through the application.
-## Usage
-- Navigate to http://localhost:3000 in your web browser.
-- Create a new post using the "Create a New Post" form.
-- Add comments to the post using the rich text editor provided in the comment section of each post.
+Using MongoDB Compass
+---------------------
+
+1.  Open MongoDB Compass.
+2.  Connect to your MongoDB instance (usually `mongodb://localhost:27017`).
+3.  Ensure the database `post-comments` is created and collections `posts` and `comments` are populated when you create posts and comments through the application.
+
+Usage
+-----
+
+1.  Navigate to `http://localhost:3000` in your web browser.
+2.  Create a new post using the "Create a New Post" form.
+3.  Add comments to the post using the rich text editor provided in the comment section of each post.
